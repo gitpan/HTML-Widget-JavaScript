@@ -11,11 +11,11 @@ HTML::Widget::JavaScript::Constraint::Any - JavaScript Any Constraint
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 
@@ -52,7 +52,7 @@ If you ask nicely it will probably get fixed or implemented.
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2006 Nilson Santos Figueiredo Júnior, all rights reserved.
+Copyright 2006, 2009 Nilson Santos Figueiredo Júnior, all rights reserved.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.

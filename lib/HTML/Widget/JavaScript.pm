@@ -13,11 +13,17 @@ HTML::Widget::JavaScript - Adds JavaScript validation to HTML::Widget
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
+
+=head1 UNMAINTAINED MODULE
+
+B<This module is unmaintained.>
+
+B<No future updates are planned at this time. You have been warned.>
 
 =head1 SYNOPSIS
 
@@ -117,7 +123,7 @@ L<HTML::Widget>
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2006 Nilson Santos Figueiredo Júnior, all rights reserved.
+Copyright 2006, 2009 Nilson Santos Figueiredo Júnior, all rights reserved.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.

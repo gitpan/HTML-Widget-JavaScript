@@ -11,11 +11,11 @@ HTML::Widget::JavaScript::Constraint::ASCII - JavaScript ASCII Constraint
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 
@@ -39,7 +39,7 @@ sub emit_javascript {
 	my $not = $self->not ? '' : '!';
 	
 	for my $param (@{$self->names}) {
-		push(@js_constraints, qq[ (${var_name}.${param}.value != '' && $not /^[\\x21-\\x7E]*\$/.test(${var_name}.${param}.value)) ]);	
+		push(@js_constraints, qq[ (${var_name}.${param}.value != '' && $not /^[\\x20-\\x7E]*\$/.test(${var_name}.${param}.value)) ]);	
 	}
 	
 	return @js_constraints;
@@ -56,7 +56,7 @@ If you ask nicely it will probably get fixed or implemented.
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2006 Nilson Santos Figueiredo Júnior, all rights reserved.
+Copyright 2006, 2009 Nilson Santos Figueiredo Júnior, all rights reserved.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
